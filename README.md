@@ -14,7 +14,7 @@ Do not duplicate Bootstrap's core generic skills here. Add skills here only when
 
 ## Reliability model
 
-Skills in this repository are not treated as automatically reliable. Each public skill must now state its evidence level, underlying logic, source or reference, validation method, and update trigger.
+Skills in this repository are not treated as automatically reliable. Each public skill must state its evidence level, underlying logic, source or reference, validation method, and update trigger.
 
 Evidence levels:
 
@@ -25,6 +25,21 @@ Evidence levels:
 - L4 Data-backed: validated with real project data, A/B tests, conversion data, or repeated production outcomes.
 
 See `docs/skill-evidence-standard.md` and `docs/skill-source-map.md` before trusting or extending a skill.
+
+## Current status
+
+No public skills are currently committed. The repository is ready for user-provided skills.
+
+When you upload a skill, add:
+
+```text
+skills/<skill-name>/SKILL.md
+skills/<skill-name>/examples/
+skills/<skill-name>/references/
+skills/<skill-name>/tests/
+```
+
+Then update `skill-index.json` and `docs/skill-source-map.md`.
 
 ## What belongs here
 
@@ -92,19 +107,11 @@ Install into a Claude Code-style project:
 <project>/.claude/skills/<skill-name>/SKILL.md
 ```
 
-## Current public skills
-
-- `ecommerce-product-emotion`: translate product specs into buyer scenarios, pain points, emotional value, and conversion-oriented copy.
-- `independent-site-analysis`: analyze independent websites, brand sites, Shopify stores, DTC stores, and prospect sites.
-- `website-conversion-review`: review landing pages, product pages, inquiry pages, signup pages, and checkout flows for conversion clarity and trust.
-- `marketplace-listing-optimizer`: improve marketplace product listings such as Amazon, Etsy, eBay, Alibaba, Walmart, Shopee, or similar product-detail pages.
-- `b2b-export-product-page`: create or improve B2B export product pages, wholesale listings, RFQ pages, and supplier product content.
-
 ## Install a skill
 
 ```bash
-node scripts/install-skill.mjs independent-site-analysis --target ../my-project --adapter codex
-node scripts/install-skill.mjs marketplace-listing-optimizer --target ../my-project --adapter claude
+node scripts/install-skill.mjs <skill-name> --target ../my-project --adapter codex
+node scripts/install-skill.mjs <skill-name> --target ../my-project --adapter claude
 ```
 
 ## Validate
@@ -113,7 +120,7 @@ node scripts/install-skill.mjs marketplace-listing-optimizer --target ../my-proj
 npm run validate
 ```
 
-Validation checks that every skill has `SKILL.md`, YAML frontmatter, `name`, `description`, use boundaries, inputs, evidence basis, workflow, output, validation, and safety notes.
+Validation allows an empty library before skills are uploaded. Once a skill exists, validation checks that it has `SKILL.md`, YAML frontmatter, `name`, `description`, use boundaries, inputs, evidence basis, workflow, output, validation, and safety notes.
 
 ## Public vs private skills
 
