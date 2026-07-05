@@ -1,0 +1,26 @@
+{
+  "name": "ai-agent-skills",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Reusable SKILL.md workflows for AI agents, AI coding tools, reports, evals, and business workflows.",
+  "scripts": {
+    "validate": "node scripts/validate-skills.mjs",
+    "install:skill": "node scripts/install-skill.mjs"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "skills",
+    "SKILL.md",
+    "codex",
+    "claude-code",
+    "agent-workflows",
+    "prompt-engineering",
+    "evals"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
