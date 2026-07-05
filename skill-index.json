@@ -1,49 +1,41 @@
 [
   {
-    "name": "demand-clarifier",
-    "path": "skills/demand-clarifier/SKILL.md",
-    "category": "project-governance",
-    "visibility": "public",
-    "risk": "low",
+    "name": "ecommerce-product-emotion",
+    "path": "skills/ecommerce-product-emotion/SKILL.md",
+    "category": "ecommerce-marketing",
+    "visibility": "public-basic",
+    "risk": "medium",
     "supports": ["openai-codex", "claude-code", "plain"]
   },
   {
-    "name": "deep-review",
-    "path": "skills/deep-review/SKILL.md",
-    "category": "review",
+    "name": "independent-site-analysis",
+    "path": "skills/independent-site-analysis/SKILL.md",
+    "category": "website-analysis",
     "visibility": "public",
     "risk": "medium",
     "supports": ["openai-codex", "claude-code", "plain"]
   },
   {
-    "name": "html-report-factory",
-    "path": "skills/html-report-factory/SKILL.md",
-    "category": "reporting",
-    "visibility": "public",
-    "risk": "low",
-    "supports": ["openai-codex", "claude-code", "plain"]
-  },
-  {
-    "name": "loop-engineering",
-    "path": "skills/loop-engineering/SKILL.md",
-    "category": "agent-improvement",
+    "name": "website-conversion-review",
+    "path": "skills/website-conversion-review/SKILL.md",
+    "category": "conversion-optimization",
     "visibility": "public",
     "risk": "medium",
     "supports": ["openai-codex", "claude-code", "plain"]
   },
   {
-    "name": "eval-designer",
-    "path": "skills/eval-designer/SKILL.md",
-    "category": "evals",
+    "name": "marketplace-listing-optimizer",
+    "path": "skills/marketplace-listing-optimizer/SKILL.md",
+    "category": "marketplace-ops",
     "visibility": "public",
-    "risk": "low",
+    "risk": "medium",
     "supports": ["openai-codex", "claude-code", "plain"]
   },
   {
-    "name": "reuse-and-dependency-management",
-    "path": "skills/reuse-and-dependency-management/SKILL.md",
-    "category": "dependency-governance",
-    "visibility": "public",
+    "name": "b2b-export-product-page",
+    "path": "skills/b2b-export-product-page/SKILL.md",
+    "category": "b2b-export",
+    "visibility": "public-basic",
     "risk": "medium",
     "supports": ["openai-codex", "claude-code", "plain"]
   }
