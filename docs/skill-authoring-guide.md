@@ -28,10 +28,27 @@ A public skill should include:
 - `Use when`
 - `Do not use when`
 - `Required inputs`
+- `Evidence basis`
 - `Workflow`
 - `Output`
 - `Validation`
 - `Safety notes`
+
+## Evidence basis
+
+Every public skill should declare:
+
+```markdown
+## Evidence basis
+
+- Evidence level:
+- Underlying logic:
+- Source or reference:
+- Validation method:
+- Update trigger:
+```
+
+Use `docs/skill-evidence-standard.md` to classify reliability. Do not present L1 practitioner heuristics as if they were L4 data-backed practices.
 
 ## Supporting files
 
