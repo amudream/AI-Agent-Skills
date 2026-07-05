@@ -23,6 +23,14 @@ Do not use this skill to recommend keyword stuffing, invent factory capacity, fa
 - Current title, attributes, images, and description if available.
 - Competitive or inquiry data if available.
 
+## Evidence basis
+
+- Evidence level: L1 practitioner heuristic; L2 when backed by platform/category documentation; L3 when validated by inquiry-quality examples or sales/operator review.
+- Underlying logic: B2B buyers need procurement confidence: specs, MOQ, customization, packaging, lead time, compliance, quality control, logistics, and supplier reliability.
+- Source or reference: `docs/skill-source-map.md`; product facts, supplier documents, inquiry data, and platform/category requirements when available.
+- Validation method: Check whether the page answers buyer procurement questions and whether recommendations are grounded in product facts, not invented capabilities.
+- Update trigger: Review when product category, target buyer, export market, certification requirements, or platform rules change.
+
 ## Workflow
 
 1. Identify buyer type, procurement scenario, and purchase decision criteria.
