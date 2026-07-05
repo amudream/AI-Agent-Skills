@@ -12,6 +12,20 @@ This repository is a vertical and website skills library, not a general project 
 
 Do not duplicate Bootstrap's core generic skills here. Add skills here only when they encode a specific industry, website type, platform, buyer journey, content workflow, or domain operating pattern.
 
+## Reliability model
+
+Skills in this repository are not treated as automatically reliable. Each public skill must now state its evidence level, underlying logic, source or reference, validation method, and update trigger.
+
+Evidence levels:
+
+- L0 Draft: unvalidated idea or rough prompt.
+- L1 Practitioner heuristic: based on practical experience or known business logic.
+- L2 Source-backed: grounded in public platform docs, official guidance, standards, or widely accepted domain practice.
+- L3 Eval-backed: has representative examples, tests, or eval cases.
+- L4 Data-backed: validated with real project data, A/B tests, conversion data, or repeated production outcomes.
+
+See `docs/skill-evidence-standard.md` and `docs/skill-source-map.md` before trusting or extending a skill.
+
 ## What belongs here
 
 A skill belongs here when it is reusable, has a clear trigger condition, has a stable workflow, defines required inputs, defines output standards, and can be tested with examples or eval cases.
@@ -47,6 +61,8 @@ skills/
 docs/
   skill-authoring-guide.md
   skill-review-checklist.md
+  skill-evidence-standard.md
+  skill-source-map.md
   compatibility.md
 
 scripts/
@@ -97,7 +113,7 @@ node scripts/install-skill.mjs marketplace-listing-optimizer --target ../my-proj
 npm run validate
 ```
 
-Validation checks that every skill has `SKILL.md`, YAML frontmatter, `name`, `description`, use boundaries, inputs, workflow, output, and safety notes.
+Validation checks that every skill has `SKILL.md`, YAML frontmatter, `name`, `description`, use boundaries, inputs, evidence basis, workflow, output, validation, and safety notes.
 
 ## Public vs private skills
 
