@@ -46,13 +46,5 @@
     "visibility": "public",
     "risk": "medium",
     "supports": ["openai-codex", "claude-code", "plain"]
-  },
-  {
-    "name": "ecommerce-product-emotion",
-    "path": "skills/ecommerce-product-emotion/SKILL.md",
-    "category": "marketing",
-    "visibility": "public-basic",
-    "risk": "medium",
-    "supports": ["openai-codex", "claude-code", "plain"]
   }
 ]
