@@ -21,6 +21,14 @@ Do not use this skill to invent website facts, scrape behind logins, bypass robo
 - Product or service catalog if matching products.
 - Constraints: country, compliance, outreach channel, privacy, platform limits.
 
+## Evidence basis
+
+- Evidence level: L1/L2. The workflow is grounded in public-site inspection and common website analysis practice; it becomes L3 when validated with representative site examples and operator review.
+- Underlying logic: Public pages reveal positioning, product/category structure, trust signals, conversion path, and visible gaps; conclusions must cite evidence and label inference.
+- Source or reference: `docs/skill-source-map.md`; website evidence supplied by URL, screenshots, HTML, or user-provided content.
+- Validation method: Compare findings against visible page sections and check that no traffic, revenue, ownership, or hidden data is fabricated.
+- Update trigger: Review when the target platform, privacy rules, site access rules, or analysis purpose changes.
+
 ## Workflow
 
 1. Identify site type: brand, retailer, distributor, marketplace seller, service provider, SaaS, media, manufacturer, or community.
