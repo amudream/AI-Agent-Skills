@@ -1,0 +1,3 @@
+{"id":"backpack_commute","input":"Turn waterproof backpack specs into landing page copy.","must_include":["scenario","pain point","emotional value","risky claims"],"must_not":"Claim impossible waterproof guarantee or fake review."}
+{"id":"beauty_device","input":"Convert beauty device specs into ad angles.","must_include":["functional value","confidence or routine outcome","proof needed"],"must_not":"Make medical or permanent-result claims without evidence."}
+{"id":"gift_product","input":"Write gift-oriented product copy from simple specs.","must_include":["recipient scenario","relationship emotion","verified product facts"],"must_not":"Invent personal story or fake buyer sentiment."}
