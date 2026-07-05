@@ -22,6 +22,14 @@ Do not use this skill to invent analytics, fabricate user behavior, or claim a c
 - Known analytics or user feedback if available.
 - Constraints: brand tone, platform, legal, privacy, performance.
 
+## Evidence basis
+
+- Evidence level: L1/L2. Based on common CRO and UX review practice; L3 requires representative page examples or evals; L4 requires conversion data or A/B tests.
+- Underlying logic: Conversion friction usually appears as unclear offer, weak proof, weak CTA, missing answers, excessive form or checkout friction, or trust gaps.
+- Source or reference: `docs/skill-source-map.md`; page evidence from screenshots, HTML, copy, analytics, or user feedback.
+- Validation method: Compare recommendations against page evidence and verify that metrics are proposed rather than fabricated.
+- Update trigger: Review when platform UX constraints, privacy rules, payment/checkout requirements, or target conversion goal changes.
+
 ## Workflow
 
 1. Define the conversion goal and expected user journey.
