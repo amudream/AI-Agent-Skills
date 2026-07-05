@@ -1,6 +1,6 @@
 # AI Agent Skills
 
-Reusable `SKILL.md` workflows for AI coding, research, reporting, marketing, data analysis, and project governance.
+Reusable `SKILL.md` workflows for AI coding, research, reporting, data analysis, and project governance.
 
 This repository is a skills library, not a project template. Use it together with [`AI-Project-Bootstrap`](https://github.com/amudream/AI-Project-Bootstrap) or any downstream AI-assisted project.
 
@@ -58,13 +58,12 @@ Install into a Claude Code-style project:
 - `loop-engineering`: improve artifacts through baseline, trace, eval, repair, validation, and logging cycles.
 - `eval-designer`: design deterministic checks, rubric evals, golden cases, and regression gates.
 - `reuse-and-dependency-management`: decide when to reuse packages, SDKs, GitHub projects, or custom code.
-- `ecommerce-product-emotion`: translate product specs into buyer scenarios, pain points, emotional value, and conversion-oriented copy.
 
 ## Install a skill
 
 ```bash
-node scripts/install-skill.mjs ecommerce-product-emotion --target ../my-project --adapter codex
-node scripts/install-skill.mjs ecommerce-product-emotion --target ../my-project --adapter claude
+node scripts/install-skill.mjs html-report-factory --target ../my-project --adapter codex
+node scripts/install-skill.mjs html-report-factory --target ../my-project --adapter claude
 ```
 
 ## Validate
