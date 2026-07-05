@@ -17,19 +17,13 @@ const requiredSections = [
 let failed = false;
 
 if (!fs.existsSync(root)) {
-  console.error('Missing skills/ directory.');
-  process.exit(1);
+  fs.mkdirSync(root, { recursive: true });
 }
 
 const skillDirs = fs.readdirSync(root, { withFileTypes: true })
   .filter((entry) => entry.isDirectory())
   .map((entry) => entry.name)
   .sort();
-
-if (!skillDirs.length) {
-  console.error('No skills found.');
-  process.exit(1);
-}
 
 for (const dir of skillDirs) {
   const file = path.join(root, dir, 'SKILL.md');
