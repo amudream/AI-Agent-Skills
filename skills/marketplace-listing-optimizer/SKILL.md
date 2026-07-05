@@ -23,6 +23,14 @@ Do not use this skill to keyword-stuff, fabricate reviews, copy competitor text,
 - Allowed keywords and forbidden claims.
 - Competitor or review evidence if available.
 
+## Evidence basis
+
+- Evidence level: L1 general marketplace heuristic; L2 only after platform-specific policy/source review; L3 after examples/evals for the target platform.
+- Underlying logic: Marketplace listings must balance buyer search intent, category attributes, product proof, objections, platform policy, and conversion clarity.
+- Source or reference: `docs/skill-source-map.md`; target marketplace policy, category rules, or seller guidance when available.
+- Validation method: Check for no keyword stuffing, fake reviews, false certificates, competitor-copying, or unsupported claims; validate with CTR, conversion, inquiry quality, returns, or review themes when data exists.
+- Update trigger: Review whenever the marketplace changes listing policy, search guidance, ad rules, restricted claims, or category requirements.
+
 ## Workflow
 
 1. Identify platform context and category expectations.
